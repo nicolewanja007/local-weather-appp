@@ -10,14 +10,16 @@ import { userInfo } from 'os';
 export class CurrentWeatherComponent implements OnInit {
 current: ICurrentWeather
 contructer() {
-    current = {
-      city:'andover',
+    this. current = {
+    city:'andover',
       contry: 'us'
       date: 1486789600,
       image: '',
-      temperature:4,
-      descripation:40 
-      
+      temperature: 50,
+      descripation: sunny
+      as ICurrentWeather
+
+
 
     }
   }
